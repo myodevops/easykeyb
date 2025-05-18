@@ -1,0 +1,35 @@
+<div id="letter-selector">
+  <style>
+    .letter-section {
+      border: 1px solid #ccc;
+      margin: 4px 0;
+      border-radius: 4px;
+    }
+    .letter-header {
+      padding: 6px 10px;
+      background: #f0f0f0;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .letter-content {
+      display: none;
+      padding: 6px 10px;
+    }
+    .letter-section.active .letter-content {
+      display: block;
+    }
+    .layout-item {
+      margin: 2px 0;
+    }
+  </style>
+
+  <div id="layout-container"></div>
+
+  <div style="margin-top: 20px; text-align: right;">
+    <button id="cancel-button">Annulla</button>
+    <button id="ok-button">OK</button>
+  </div>
+
+  <script src="setupRenderer.js"></script>
+</div>
+

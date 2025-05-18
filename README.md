@@ -1,2 +1,3 @@
 # easykeyb
-Simple keyboard layout selector for Windows
+
+A simple Electron tray app.

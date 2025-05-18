@@ -1,0 +1,12 @@
+{
+    "A": [
+      { "id": "00000401", "name": "Arabic (101)" },
+      { "id": "00010401", "name": "Arabic (102)" },
+      { "id": "00020401", "name": "Arabic (102) AZERTY" }
+    ],
+    "B": [
+      { "id": "00000402", "name": "Bulgarian" },
+      { "id": "00010402", "name": "Bulgarian (Latin)" }
+    ]
+  }
+  
