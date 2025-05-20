@@ -4,6 +4,8 @@ const setup = require('./setup');
 const { ipcMain } = require('electron');
 const path = require('path');
 const Registry = require('winreg');
+const { refreshKeyboardMenu } = require('./src/keyManager');
+
 
 let tray = null;
 const regKey = new Registry({
@@ -85,20 +87,7 @@ app.whenReady().then(() => {
   });
 
   // Clic destro → elenco tastiere
-  tray.on('click', () => {
-    getInstalledKeyboards((layouts) => {
-      const keyboardMenu = Menu.buildFromTemplate(
-        layouts.map(layout => ({
-          label: layout,
-          click: () => {
-            console.log(`Selezionata: ${layout}`);
-            // In futuro: comando per installare solo questa
-          }
-        }))
-      );
-      tray.popUpContextMenu(keyboardMenu);
-    });
-  });
+  refreshKeyboardMenu(tray, regKey);
 });
 
 function openSetupWindow() {
