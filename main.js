@@ -8,6 +8,7 @@ const { refreshKeyboardMenu } = require('./src/keyManager');
 
 
 let tray = null;
+
 const regKey = new Registry({
   hive: Registry.HKCU,
   key: '\\Software\\easykeyb'
@@ -44,6 +45,7 @@ ipcMain.handle('save-selected-layouts', async (event, selectedIds) => {
           console.error('Error saving layouts:', err);
           reject(err);
         } else {
+          refreshKeyboardMenu(tray, regKey); // Update the left-click menu
           resolve();
         }
       });
