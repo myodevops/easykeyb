@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const { Menu } = require('electron');
+const { getCurrentKeyboardLayout } = require('./powershell');
 
 const keyboardLayouts = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'keyboard_layouts.json'), 'utf-8')
@@ -17,29 +18,33 @@ function getLayoutNameById(id) {
   return id; // fallback
 }
 
-// Funzione esportata
+// Exported function
 function refreshKeyboardMenu(tray, regKey) {
-  regKey.get('EnabledKeyboards', (err, item) => {
-    if (err || !item || !item.value) return;
+  getCurrentKeyboardLayout(currentId => {
+    regKey.get('EnabledKeyboards', (err, item) => {
+      if (err || !item || !item.value) return;
 
-    const ids = item.value
-      .replace(/"/g, '')
-      .split('|')
-      .map(v => v.trim())
-      .filter(Boolean);
+      const ids = item.value
+        .replace(/"/g, '')
+        .split('|')
+        .map(v => v.trim())
+        .filter(Boolean);
 
-    const menuTemplate = ids.map(id => ({
-      label: getLayoutNameById(id),
-      click: () => {
-        console.log('Hai selezionato:', id);
-        // TODO: attiva effettivamente il layout
-      }
-    }));
+      const menuTemplate = ids.map(id => ({
+        label: id === currentId
+          ? `✅ ${getLayoutNameById(id)}`
+          : `⬜️ ${getLayoutNameById(id)}`,
+        click: () => {
+          console.log('Hai selezionato:', id);
+          // TODO: attivare il layout
+        }
+      }));
 
-    const menu = Menu.buildFromTemplate(menuTemplate);
-    tray.setContextMenu(null);
-    tray.removeAllListeners('click');
-    tray.on('click', () => tray.popUpContextMenu(menu));
+      const menu = Menu.buildFromTemplate(menuTemplate);
+      tray.setContextMenu(null);
+      tray.removeAllListeners('click');
+      tray.on('click', () => tray.popUpContextMenu(menu));
+    });  
   });
 }
 
