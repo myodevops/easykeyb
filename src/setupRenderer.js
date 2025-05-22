@@ -4,7 +4,10 @@ fetch('keyboard_layouts.json')
   .then(response => response.json())
   .then(layoutData => {
     globalLayoutData = layoutData;
-    createLayoutSections(globalLayoutData);
+    
+    window.easykeyb.getLayouts().then(savedLayoutIds => {
+      createLayoutSections(globalLayoutData, savedLayoutIds);
+    });
 
     window.easykeyb.getLayouts().then(savedIds => {
       document.querySelectorAll('.layout-checkbox').forEach(cb => {
@@ -26,7 +29,7 @@ function groupLayoutsByFirstLetter(layouts) {
   return result;
 }
 
-function createLayoutSections(layouts) {
+function createLayoutSections(layouts, savedLayoutIds = []) {
   const container = document.getElementById('layout-container');
   container.innerHTML = '';
 
@@ -51,6 +54,17 @@ function createLayoutSections(layouts) {
       checkbox.value = layout.id;
       checkbox.className = 'layout-checkbox';
 
+      // Se era già selezionato in precedenza, marchia checked
+      if (savedLayoutIds.includes(layout.id)) {
+        checkbox.checked = true;
+      }
+
+      // Ascolta i cambiamenti per aggiornare il grassetto del gruppo
+      checkbox.addEventListener('change', () => {
+        const anyChecked = Array.from(section.querySelectorAll('.layout-checkbox')).some(cb => cb.checked);
+        header.classList.toggle('selected', anyChecked);
+      });
+
       const label = document.createElement('label');
       label.className = 'layout-item';
       label.appendChild(checkbox);
@@ -63,6 +77,12 @@ function createLayoutSections(layouts) {
     section.appendChild(header);
     section.appendChild(content);
     container.appendChild(section);
+
+    // Imposta grassetto se almeno un layout è selezionato in partenza
+    const anyInitiallyChecked = layouts[letter].some(layout => savedLayoutIds.includes(layout.id));
+    if (anyInitiallyChecked) {
+      header.classList.add('selected');
+    }
   });
 }
 
