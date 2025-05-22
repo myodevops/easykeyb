@@ -37,10 +37,6 @@
       "name": "Armenian Western (Legacy)"
     },
     {
-      "id": "0000044D",
-      "name": "Assamese - INSCRIPT"
-    },
-    {
       "id": "0001042C",
       "name": "Azerbaijani (Standard)"
     },
@@ -118,11 +114,11 @@
   "C": [
     {
       "id": "00001009",
-      "name": "Canadian French"
+      "name": "Canadian"
     },
     {
       "id": "00000C0C",
-      "name": "Canadian French (Legacy)"
+      "name": "Canadian (Legacy)"
     },
     {
       "id": "00011009",
@@ -217,10 +213,6 @@
       "name": "English (Belize)"
     },
     {
-      "id": "00001009",
-      "name": "English (Canadian)"
-    },
-    {
       "id": "00002409",
       "name": "English (Caribbean)"
     },
@@ -229,16 +221,8 @@
       "name": "English (India)"
     },
     {
-      "id": "00001809",
-      "name": "English (Irish)"
-    },
-    {
       "id": "00002009",
       "name": "English (Jamaica)"
-    },
-    {
-      "id": "00001409",
-      "name": "English (New Zealand)"
     },
     {
       "id": "00003409",
@@ -255,6 +239,10 @@
     {
       "id": "00000809",
       "name": "English (United Kingdom)"
+    },
+        {
+      "id": "00000452",
+      "name": "English (UK Extended)"
     },
     {
       "id": "00000409",
@@ -273,10 +261,6 @@
     {
       "id": "0000043E",
       "name": "Faroese"
-    },
-    {
-      "id": "00000438",
-      "name": "Faroese (Legacy)"
     },
     {
       "id": "00000438",
@@ -309,10 +293,6 @@
   ],
   "G": [
     {
-      "id": "0000040A",
-      "name": "Galician"
-    },
-    {
       "id": "00000437",
       "name": "Georgian"
     },
@@ -325,20 +305,12 @@
       "name": "Georgian (Ergonomic)"
     },
     {
-      "id": "00000437",
-      "name": "Georgian (Legacy)"
-    },
-    {
       "id": "00030437",
       "name": "Georgian (MES)"
     },
     {
       "id": "00040437",
       "name": "Georgian (Old Alphabets)"
-    },
-    {
-      "id": "00010437",
-      "name": "Georgian (QWERTY)"
     },
     {
       "id": "00000407",
@@ -550,11 +522,7 @@
   "M": [
     {
       "id": "0000044F",
-      "name": "Macedonian (North Macedonia)"
-    },
-    {
-      "id": "0000044F",
-      "name": "Macedonian (North Macedonia) - Standard"
+      "name": "Macedonian (North Standard)"
     },
     {
       "id": "0000044C",
@@ -616,7 +584,7 @@
     },
     {
       "id": "00001409",
-      "name": "NZ Aotearoa"
+      "name": "New Zealand"
     }
   ],
   "O": [
@@ -688,10 +656,6 @@
     }
   ],
   "R": [
-    {
-      "id": "00000418",
-      "name": "Romanian"
-    },
     {
       "id": "00000418",
       "name": "Romanian (Legacy)"
@@ -853,10 +817,6 @@
       "name": "Tatar (Legacy)"
     },
     {
-      "id": "0000044A",
-      "name": "Telugu"
-    },
-    {
       "id": "0000041E",
       "name": "Thai Kedmanee"
     },
@@ -915,14 +875,6 @@
       "name": "Ukrainian (Enhanced)"
     },
     {
-      "id": "00000809",
-      "name": "United Kingdom"
-    },
-    {
-      "id": "00000452",
-      "name": "United Kingdom Extended"
-    },
-    {
       "id": "00010409",
       "name": "United States-Dvorak"
     },
@@ -941,10 +893,6 @@
     {
       "id": "00000420",
       "name": "Urdu"
-    },
-    {
-      "id": "00000409",
-      "name": "US"
     },
     {
       "id": "00050409",
