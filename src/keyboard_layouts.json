@@ -1,271 +1,988 @@
 {
-    "A": [
-      { "id": "00140C00", "name": "ADLaM" },
-      { "id": "0000041C", "name": "Albanian" },
-      { "id": "00000401", "name": "Arabic (101)" },
-      { "id": "00010401", "name": "Arabic (102)" },
-      { "id": "00020401", "name": "Arabic (102) AZERTY" },
-      { "id": "0000042B", "name": "Armenian Eastern (Legacy)" },
-      { "id": "0002042B", "name": "Armenian Phonetic" },
-      { "id": "0003042B", "name": "Armenian Typewriter" },
-      { "id": "0001042B", "name": "Armenian Western (Legacy)" },
-      { "id": "0000044D", "name": "Assamese - INSCRIPT" },
-      { "id": "0001042C", "name": "Azerbaijani (Standard)" },
-      { "id": "0000082C", "name": "Azerbaijani Cyrillic" },
-      { "id": "0000042C", "name": "Azerbaijani Latin" }
-    ],
-    "B": [
-      { "id": "00000445", "name": "Bangla" },
-      { "id": "00020445", "name": "Bangla - INSCRIPT" },
-      { "id": "00010445", "name": "Bangla - INSCRIPT (Legacy)" },
-      { "id": "0000046D", "name": "Bashkir" },
-      { "id": "00000423", "name": "Belarusian" },
-      { "id": "0001080C", "name": "Belgian (Comma)" },
-      { "id": "00000813", "name": "Belgian (Period)" },
-      { "id": "0000080C", "name": "Belgian French" },
-      { "id": "0000201A", "name": "Bosnian (Cyrillic)" },
-      { "id": "000B0C00", "name": "Buginese" },
-      { "id": "00030402", "name": "Bulgarian" },
-      { "id": "00010402", "name": "Bulgarian (Latin)" },
-      { "id": "00040402", "name": "Bulgarian (Phonetic Traditional)" },
-      { "id": "00020402", "name": "Bulgarian (Phonetic)" },
-      { "id": "00000402", "name": "Bulgarian (Typewriter)" }
-    ],
-    "C": [
-      { "id": "00001009", "name": "Canadian French" },
-      { "id": "00000C0C", "name": "Canadian French (Legacy)" },
-      { "id": "00011009", "name": "Canadian Multilingual Standard" },
-      { "id": "0000085F", "name": "Central Atlas Tamazight" },
-      { "id": "00000492", "name": "Central Kurdish" },
-      { "id": "0000045C", "name": "Cherokee Nation" },
-      { "id": "0001045C", "name": "Cherokee Phonetic" },
-      { "id": "00000804", "name": "Chinese (Simplified) - US" },
-      { "id": "00001004", "name": "Chinese (Simplified, Singapore) - US" },
-      { "id": "00000404", "name": "Chinese (Traditional) - US" },
-      { "id": "00000C04", "name": "Chinese (Traditional, Hong Kong S.A.R.) - US" },
-      { "id": "00001404", "name": "Chinese (Traditional, Macao S.A.R.) - US" },
-      { "id": "00060409", "name": "Colemak" },
-      { "id": "00000405", "name": "Czech" },
-      { "id": "00010405", "name": "Czech (QWERTY)" },
-      { "id": "00020405", "name": "Czech Programmers" }
-    ],
-    "D": [
-      { "id": "00000406", "name": "Danish" },
-      { "id": "00000439", "name": "Devanagari - INSCRIPT" },
-      { "id": "00000465", "name": "Divehi Phonetic" },
-      { "id": "00010465", "name": "Divehi Typewriter" },
-      { "id": "00000413", "name": "Dutch" },
-      { "id": "00000C51", "name": "Dzongkha" }
-    ],
-    "E": [
-      { "id": "00004009", "name": "English (India)" },
-      { "id": "00000425", "name": "Estonian" }
-    ],
-    "F": [
-      { "id": "0000043E", "name": "Faroese" },
-      { "id": "00000438", "name": "Faroese (Legacy)" },
-      { "id": "00000438", "name": "Faeroese" },
-      { "id": "0000040B", "name": "Finnish" },
-      { "id": "0001083B", "name": "Finnish with Sami" },
-      { "id": "0000040C", "name": "French (Legacy, AZERTY)" },
-      { "id": "0001040C", "name": "French (Standard, AZERTY)" },
-      { "id": "0002040C", "name": "French (Standard, BÉPO)" },
-      { "id": "00120C00", "name": "Futhark" }
-    ],
-    "G": [
-      { "id": "0000040A", "name": "Galician" },
-      { "id": "00000437", "name": "Georgian" },
-      { "id": "00010437", "name": "Georgian (Extended)" },
-      { "id": "00020437", "name": "Georgian (Ergonomic)" },
-      { "id": "00000437", "name": "Georgian (Legacy)" },
-      { "id": "00030437", "name": "Georgian (MES)" },
-      { "id": "00040437", "name": "Georgian (Old Alphabets)" },
-      { "id": "00010437", "name": "Georgian (QWERTY)" },
-      { "id": "00000407", "name": "German" },
-      { "id": "00010407", "name": "German (IBM)" },
-      { "id": "00020407", "name": "German Extended (E1)" },
-      { "id": "00030407", "name": "German Extended (E2)" },
-      { "id": "000C0C00", "name": "Gothic" },
-      { "id": "00000408", "name": "Greek" },
-      { "id": "00010408", "name": "Greek (220)" },
-      { "id": "00030408", "name": "Greek (220) Latin" },
-      { "id": "00020408", "name": "Greek (319)" },
-      { "id": "00040408", "name": "Greek (319) Latin" },
-      { "id": "00050408", "name": "Greek Latin" },
-      { "id": "00060408", "name": "Greek Polytonic" },
-      { "id": "0000046F", "name": "Greenlandic" },
-      { "id": "00000474", "name": "Guarani" },
-      { "id": "00000447", "name": "Gujarati" }
-    ],
-    "H": [
-      { "id": "00000468", "name": "Hausa" },
-      { "id": "00000475", "name": "Hawaiian" },
-      { "id": "0000040D", "name": "Hebrew" },
-      { "id": "0002040D", "name": "Hebrew (Standard)" },
-      { "id": "0003040D", "name": "Hebrew (Standard, 2018)" },
-      { "id": "00010439", "name": "Hindi Traditional" },
-      { "id": "0000040E", "name": "Hungarian" },
-      { "id": "0001040E", "name": "Hungarian 101-key" } 
-    ],
-    "I": [
-      { "id": "0000040F", "name": "Icelandic" },
-      { "id": "00000470", "name": "Igbo" },
-      { "id": "0000085D", "name": "Inuktitut - Latin" },
-      { "id": "0001045D", "name": "Inuktitut - Naqittaut" },
-      { "id": "00001809", "name": "Irish" },
-      { "id": "00000410", "name": "Italian" },
-      { "id": "00010410", "name": "Italian (142)" }
-    ],
-    "J": [
-      { "id": "00000411", "name": "Japanese" },
-      { "id": "00110C00", "name": "Javanese" }
-    ],
-    "K": [
-      { "id": "0000044B", "name": "Kannada" },
-      { "id": "0000043F", "name": "Kazakh" },
-      { "id": "00000453", "name": "Khmer" },
-      { "id": "00010453", "name": "Khmer (NIDA)" },
-      { "id": "00000412", "name": "Korean" },
-      { "id": "00000440", "name": "Kyrgyz Cyrillic" }
-    ],
-    "L": [
-      { "id": "0000043C", "name": "Lao" },
-      { "id": "0000080A", "name": "Latin American" },
-      { "id": "0000044A", "name": "Latvian" },
-      { "id": "00010426", "name": "Latvian (QWERTY)" },
-      { "id": "00020426", "name": "Latvian (Standard)" },
-      { "id": "00070C00", "name": "Lisu (Basic)" },
-      { "id": "00080C00", "name": "Lisu (Standard)" },
-      { "id": "00010427", "name": "Lithuanian" },
-      { "id": "00000427", "name": "Lithuanian IBM" },
-      { "id": "00020427", "name": "Lithuanian Standard" },
-      { "id": "0000046E", "name": "Luxembourgish" }
-    ],
-    "M": [
-      { "id": "0000044F", "name": "Macedonian (North Macedonia)" },
-      { "id": "0000044F", "name": "Macedonian (North Macedonia) - Standard" },
-      { "id": "0000044C", "name": "Malayalam" },
-      { "id": "0000043A", "name": "Maltese 47-Key" },
-      { "id": "0001043A", "name": "Maltese 48-Key" },
-      { "id": "00000481", "name": "Maori" },
-      { "id": "0000044E", "name": "Marathi" },
-      { "id": "00000850", "name": "Mongolian (Mongolian Script)" },
-      { "id": "00000450", "name": "Mongolian Cyrillic" },
-      { "id": "00010C00", "name": "Myanmar (Phonetic order)" },
-      { "id": "00130C00", "name": "Myanmar (Visual order)" }
-    ],
-    "N": [
-      { "id": "00000461", "name": "Nepali" },
-      { "id": "00020C00", "name": "New Tai Lue" },
-      { "id": "00090C00", "name": "N’Ko" },
-      { "id": "00000414", "name": "Norwegian" },
-      { "id": "0000043B", "name": "Norwegian with Sami" },
-      { "id": "00001409", "name": "NZ Aotearoa" }
-    ],
-    "O": [
-      { "id": "00000448", "name": "Odia" },
-      { "id": "00040C00", "name": "Ogham" },
-      { "id": "000D0C00", "name": "Ol Chiki" },
-      { "id": "000F0C00", "name": "Old Italic" },
-      { "id": "00150C00", "name": "Osage" },
-      { "id": "000E0C00", "name": "Osmanya" }
-    ],
-    "P": [
-      { "id": "00000463", "name": "Pashto (Afghanistan)" },
-      { "id": "00000429", "name": "Persian" },
-      { "id": "00050429", "name": "Persian (Standard)" },
-      { "id": "000A0C00", "name": "Phags-pa" },
-      { "id": "00010415", "name": "Polish (214)" },
-      { "id": "00000415", "name": "Polish (Programmers)" },
-      { "id": "00000816", "name": "Portuguese" },
-      { "id": "00000416", "name": "Portuguese (Brazil ABNT)" },
-      { "id": "00010416", "name": "Portuguese (Brazil ABNT2)" },
-      { "id": "00000446", "name": "Punjabi" }
-    ],
-    "R": [
-      { "id": "00000418", "name": "Romanian" },
-      { "id": "00000418", "name": "Romanian (Legacy)" },
-      { "id": "00020418", "name": "Romanian (Programmers)" },
-      { "id": "00010418", "name": "Romanian (Standard)" },
-      { "id": "00000419", "name": "Russian" },
-      { "id": "00020419", "name": "Russian - Mnemonic" },
-      { "id": "00010419", "name": "Russian (Typewriter)" }
-    ],
-    "S": [
-      { "id": "00000485", "name": "Sakha" },
-      { "id": "0002083B", "name": "Sami Extended Finland-Sweden" },
-      { "id": "0001043B", "name": "Sami Extended Norway" },
-      { "id": "00011809", "name": "Scottish Gaelic" },
-      { "id": "00000C1A", "name": "Serbian (Cyrillic)" },
-      { "id": "0000081A", "name": "Serbian (Latin)" },
-      { "id": "0000046C", "name": "Sesotho sa Leboa" },
-      { "id": "00000432", "name": "Setswana" },
-      { "id": "0000045B", "name": "Sinhala" },
-      { "id": "0001045B", "name": "Sinhala - Wij 9" },
-      { "id": "0000041B", "name": "Slovak" },
-      { "id": "0001041B", "name": "Slovak (QWERTY)" },
-      { "id": "00000424", "name": "Slovenian" },
-      { "id": "00100C00", "name": "Sora" },
-      { "id": "0001042E", "name": "Sorbian Extended" },
-      { "id": "0002042E", "name": "Sorbian Standard" },
-      { "id": "0000042E", "name": "Sorbian Standard (Legacy)" },
-      { "id": "0000040A", "name": "Spanish" },
-      { "id": "0001040A", "name": "Spanish Variation" },
-      { "id": "0000041A", "name": "Standard" },
-      { "id": "0000041D", "name": "Swedish" },
-      { "id": "0000083B", "name": "Swedish with Sami" },
-      { "id": "0000100C", "name": "Swiss French" },
-      { "id": "00000807", "name": "Swiss German" },
-      { "id": "0000045A", "name": "Syriac" },
-      { "id": "0001045A", "name": "Syriac Phonetic" }
-    ],
-    "T": [
-      { "id": "00030C00", "name": "Tai Le" },
-      { "id": "00000428", "name": "Tajik" },
-      { "id": "00000449", "name": "Tamil" },
-      { "id": "00020449", "name": "Tamil 99" },
-      { "id": "00030449", "name": "Tamil Anjal" },
-      { "id": "00010444", "name": "Tatar" },
-      { "id": "00000444", "name": "Tatar (Legacy)" },
-      { "id": "0000044A", "name": "Telugu" },
-      { "id": "0000041E", "name": "Thai Kedmanee" },
-      { "id": "0002041E", "name": "Thai Kedmanee (non-ShiftLock)" },
-      { "id": "0001041E", "name": "Thai Pattachote" },
-      { "id": "0003041E", "name": "Thai Pattachote (non-ShiftLock)" },
-      { "id": "00000451", "name": "Tibetan (PRC)" },
-      { "id": "00010451", "name": "Tibetan (PRC) - Updated" },
-      { "id": "0000105F", "name": "Tifinagh (Basic)" },
-      { "id": "0001105F", "name": "Tifinagh (Extended)" },
-      { "id": "00010850", "name": "Traditional Mongolian (Standard)" },
-      { "id": "0001041F", "name": "Turkish F" },
-      { "id": "0000041F", "name": "Turkish Q" },
-      { "id": "00000442", "name": "Turkmen" }
-    ],
-    "U": [
-      { "id": "00000422", "name": "Ukrainian" },
-      { "id": "00020422", "name": "Ukrainian (Enhanced)" },
-      { "id": "00000809", "name": "United Kingdom" },
-      { "id": "00000452", "name": "United Kingdom Extended" },
-      { "id": "00010409", "name": "United States-Dvorak" },
-      { "id": "00030409", "name": "United States-Dvorak for left hand" },
-      { "id": "00040409", "name": "United States-Dvorak for right hand" },
-      { "id": "00020409", "name": "United States-International" },
-      { "id": "00000420", "name": "Urdu" },
-      { "id": "00000409", "name": "US" },
-      { "id": "00050409", "name": "US English Table for IBM Arabic 238_L" },
-      { "id": "00010480", "name": "Uyghur" },
-      { "id": "00000480", "name": "Uyghur (Legacy)" },
-      { "id": "00000843", "name": "Uzbek Cyrillic" }
-    ],
-    "V": [
-      { "id": "0000042A", "name": "Vietnamese" }
-    ],
-    "W": [
-      { "id": "0000044D", "name": "Welsh" },
-      { "id": "00000488", "name": "Wolof" }
-    ],
-    "Y": [
-      { "id": "0000046A", "name": "Yoruba" }
-    ]
-  }
-  
+  "A": [
+    {
+      "id": "00140C00",
+      "name": "ADLaM"
+    },
+    {
+      "id": "0000041C",
+      "name": "Albanian"
+    },
+    {
+      "id": "00000401",
+      "name": "Arabic (101)"
+    },
+    {
+      "id": "00010401",
+      "name": "Arabic (102)"
+    },
+    {
+      "id": "00020401",
+      "name": "Arabic (102) AZERTY"
+    },
+    {
+      "id": "0000042B",
+      "name": "Armenian Eastern (Legacy)"
+    },
+    {
+      "id": "0002042B",
+      "name": "Armenian Phonetic"
+    },
+    {
+      "id": "0003042B",
+      "name": "Armenian Typewriter"
+    },
+    {
+      "id": "0001042B",
+      "name": "Armenian Western (Legacy)"
+    },
+    {
+      "id": "0000044D",
+      "name": "Assamese - INSCRIPT"
+    },
+    {
+      "id": "0001042C",
+      "name": "Azerbaijani (Standard)"
+    },
+    {
+      "id": "0000082C",
+      "name": "Azerbaijani Cyrillic"
+    },
+    {
+      "id": "0000042C",
+      "name": "Azerbaijani Latin"
+    }
+  ],
+  "B": [
+    {
+      "id": "00000445",
+      "name": "Bangla"
+    },
+    {
+      "id": "00020445",
+      "name": "Bangla - INSCRIPT"
+    },
+    {
+      "id": "00010445",
+      "name": "Bangla - INSCRIPT (Legacy)"
+    },
+    {
+      "id": "0000046D",
+      "name": "Bashkir"
+    },
+    {
+      "id": "00000423",
+      "name": "Belarusian"
+    },
+    {
+      "id": "0001080C",
+      "name": "Belgian (Comma)"
+    },
+    {
+      "id": "00000813",
+      "name": "Belgian (Period)"
+    },
+    {
+      "id": "0000080C",
+      "name": "Belgian French"
+    },
+    {
+      "id": "0000201A",
+      "name": "Bosnian (Cyrillic)"
+    },
+    {
+      "id": "000B0C00",
+      "name": "Buginese"
+    },
+    {
+      "id": "00030402",
+      "name": "Bulgarian"
+    },
+    {
+      "id": "00010402",
+      "name": "Bulgarian (Latin)"
+    },
+    {
+      "id": "00040402",
+      "name": "Bulgarian (Phonetic Traditional)"
+    },
+    {
+      "id": "00020402",
+      "name": "Bulgarian (Phonetic)"
+    },
+    {
+      "id": "00000402",
+      "name": "Bulgarian (Typewriter)"
+    }
+  ],
+  "C": [
+    {
+      "id": "00001009",
+      "name": "Canadian French"
+    },
+    {
+      "id": "00000C0C",
+      "name": "Canadian French (Legacy)"
+    },
+    {
+      "id": "00011009",
+      "name": "Canadian Multilingual Standard"
+    },
+    {
+      "id": "0000085F",
+      "name": "Central Atlas Tamazight"
+    },
+    {
+      "id": "00000492",
+      "name": "Central Kurdish"
+    },
+    {
+      "id": "0000045C",
+      "name": "Cherokee Nation"
+    },
+    {
+      "id": "0001045C",
+      "name": "Cherokee Phonetic"
+    },
+    {
+      "id": "00000804",
+      "name": "Chinese (Simplified) - US"
+    },
+    {
+      "id": "00001004",
+      "name": "Chinese (Simplified, Singapore) - US"
+    },
+    {
+      "id": "00000404",
+      "name": "Chinese (Traditional) - US"
+    },
+    {
+      "id": "00000C04",
+      "name": "Chinese (Traditional, Hong Kong S.A.R.) - US"
+    },
+    {
+      "id": "00001404",
+      "name": "Chinese (Traditional, Macao S.A.R.) - US"
+    },
+    {
+      "id": "00060409",
+      "name": "Colemak"
+    },
+    {
+      "id": "00000405",
+      "name": "Czech"
+    },
+    {
+      "id": "00010405",
+      "name": "Czech (QWERTY)"
+    },
+    {
+      "id": "00020405",
+      "name": "Czech Programmers"
+    }
+  ],
+  "D": [
+    {
+      "id": "00000406",
+      "name": "Danish"
+    },
+    {
+      "id": "00000439",
+      "name": "Devanagari - INSCRIPT"
+    },
+    {
+      "id": "00000465",
+      "name": "Divehi Phonetic"
+    },
+    {
+      "id": "00010465",
+      "name": "Divehi Typewriter"
+    },
+    {
+      "id": "00000413",
+      "name": "Dutch"
+    },
+    {
+      "id": "00000C51",
+      "name": "Dzongkha"
+    }
+  ],
+  "E": [
+    {
+      "id": "00000C09",
+      "name": "English (Australian)"
+    },
+    {
+      "id": "00002809",
+      "name": "English (Belize)"
+    },
+    {
+      "id": "00001009",
+      "name": "English (Canadian)"
+    },
+    {
+      "id": "00002409",
+      "name": "English (Caribbean)"
+    },
+    {
+      "id": "00004009",
+      "name": "English (India)"
+    },
+    {
+      "id": "00001809",
+      "name": "English (Irish)"
+    },
+    {
+      "id": "00002009",
+      "name": "English (Jamaica)"
+    },
+    {
+      "id": "00001409",
+      "name": "English (New Zealand)"
+    },
+    {
+      "id": "00003409",
+      "name": "English (Philippines)"
+    },
+    {
+      "id": "00001C09",
+      "name": "English (South Africa)"
+    },
+    {
+      "id": "00002C09",
+      "name": "English (Trinidad)"
+    },
+    {
+      "id": "00000809",
+      "name": "English (United Kingdom)"
+    },
+    {
+      "id": "00000409",
+      "name": "English (United States)"
+    },
+    {
+      "id": "00003009",
+      "name": "English (Zimbabwe)"
+    },
+    {
+      "id": "00000425",
+      "name": "Estonian"
+    }
+  ],
+  "F": [
+    {
+      "id": "0000043E",
+      "name": "Faroese"
+    },
+    {
+      "id": "00000438",
+      "name": "Faroese (Legacy)"
+    },
+    {
+      "id": "00000438",
+      "name": "Faeroese"
+    },
+    {
+      "id": "0000040B",
+      "name": "Finnish"
+    },
+    {
+      "id": "0001083B",
+      "name": "Finnish with Sami"
+    },
+    {
+      "id": "0000040C",
+      "name": "French (Legacy, AZERTY)"
+    },
+    {
+      "id": "0001040C",
+      "name": "French (Standard, AZERTY)"
+    },
+    {
+      "id": "0002040C",
+      "name": "French (Standard, BÉPO)"
+    },
+    {
+      "id": "00120C00",
+      "name": "Futhark"
+    }
+  ],
+  "G": [
+    {
+      "id": "0000040A",
+      "name": "Galician"
+    },
+    {
+      "id": "00000437",
+      "name": "Georgian"
+    },
+    {
+      "id": "00010437",
+      "name": "Georgian (Extended)"
+    },
+    {
+      "id": "00020437",
+      "name": "Georgian (Ergonomic)"
+    },
+    {
+      "id": "00000437",
+      "name": "Georgian (Legacy)"
+    },
+    {
+      "id": "00030437",
+      "name": "Georgian (MES)"
+    },
+    {
+      "id": "00040437",
+      "name": "Georgian (Old Alphabets)"
+    },
+    {
+      "id": "00010437",
+      "name": "Georgian (QWERTY)"
+    },
+    {
+      "id": "00000407",
+      "name": "German"
+    },
+    {
+      "id": "00010407",
+      "name": "German (IBM)"
+    },
+    {
+      "id": "00020407",
+      "name": "German Extended (E1)"
+    },
+    {
+      "id": "00030407",
+      "name": "German Extended (E2)"
+    },
+    {
+      "id": "000C0C00",
+      "name": "Gothic"
+    },
+    {
+      "id": "00000408",
+      "name": "Greek"
+    },
+    {
+      "id": "00010408",
+      "name": "Greek (220)"
+    },
+    {
+      "id": "00030408",
+      "name": "Greek (220) Latin"
+    },
+    {
+      "id": "00020408",
+      "name": "Greek (319)"
+    },
+    {
+      "id": "00040408",
+      "name": "Greek (319) Latin"
+    },
+    {
+      "id": "00050408",
+      "name": "Greek Latin"
+    },
+    {
+      "id": "00060408",
+      "name": "Greek Polytonic"
+    },
+    {
+      "id": "0000046F",
+      "name": "Greenlandic"
+    },
+    {
+      "id": "00000474",
+      "name": "Guarani"
+    },
+    {
+      "id": "00000447",
+      "name": "Gujarati"
+    }
+  ],
+  "H": [
+    {
+      "id": "00000468",
+      "name": "Hausa"
+    },
+    {
+      "id": "00000475",
+      "name": "Hawaiian"
+    },
+    {
+      "id": "0000040D",
+      "name": "Hebrew"
+    },
+    {
+      "id": "0002040D",
+      "name": "Hebrew (Standard)"
+    },
+    {
+      "id": "0003040D",
+      "name": "Hebrew (Standard, 2018)"
+    },
+    {
+      "id": "00010439",
+      "name": "Hindi Traditional"
+    },
+    {
+      "id": "0000040E",
+      "name": "Hungarian"
+    },
+    {
+      "id": "0001040E",
+      "name": "Hungarian 101-key"
+    }
+  ],
+  "I": [
+    {
+      "id": "0000040F",
+      "name": "Icelandic"
+    },
+    {
+      "id": "00000470",
+      "name": "Igbo"
+    },
+    {
+      "id": "0000085D",
+      "name": "Inuktitut - Latin"
+    },
+    {
+      "id": "0001045D",
+      "name": "Inuktitut - Naqittaut"
+    },
+    {
+      "id": "00001809",
+      "name": "Irish"
+    },
+    {
+      "id": "00000410",
+      "name": "Italian"
+    },
+    {
+      "id": "00010410",
+      "name": "Italian (142)"
+    }
+  ],
+  "J": [
+    {
+      "id": "00000411",
+      "name": "Japanese"
+    },
+    {
+      "id": "00110C00",
+      "name": "Javanese"
+    }
+  ],
+  "K": [
+    {
+      "id": "0000044B",
+      "name": "Kannada"
+    },
+    {
+      "id": "0000043F",
+      "name": "Kazakh"
+    },
+    {
+      "id": "00000453",
+      "name": "Khmer"
+    },
+    {
+      "id": "00010453",
+      "name": "Khmer (NIDA)"
+    },
+    {
+      "id": "00000412",
+      "name": "Korean"
+    },
+    {
+      "id": "00000440",
+      "name": "Kyrgyz Cyrillic"
+    }
+  ],
+  "L": [
+    {
+      "id": "0000043C",
+      "name": "Lao"
+    },
+    {
+      "id": "0000080A",
+      "name": "Latin American"
+    },
+    {
+      "id": "0000044A",
+      "name": "Latvian"
+    },
+    {
+      "id": "00010426",
+      "name": "Latvian (QWERTY)"
+    },
+    {
+      "id": "00020426",
+      "name": "Latvian (Standard)"
+    },
+    {
+      "id": "00070C00",
+      "name": "Lisu (Basic)"
+    },
+    {
+      "id": "00080C00",
+      "name": "Lisu (Standard)"
+    },
+    {
+      "id": "00010427",
+      "name": "Lithuanian"
+    },
+    {
+      "id": "00000427",
+      "name": "Lithuanian IBM"
+    },
+    {
+      "id": "00020427",
+      "name": "Lithuanian Standard"
+    },
+    {
+      "id": "0000046E",
+      "name": "Luxembourgish"
+    }
+  ],
+  "M": [
+    {
+      "id": "0000044F",
+      "name": "Macedonian (North Macedonia)"
+    },
+    {
+      "id": "0000044F",
+      "name": "Macedonian (North Macedonia) - Standard"
+    },
+    {
+      "id": "0000044C",
+      "name": "Malayalam"
+    },
+    {
+      "id": "0000043A",
+      "name": "Maltese 47-Key"
+    },
+    {
+      "id": "0001043A",
+      "name": "Maltese 48-Key"
+    },
+    {
+      "id": "00000481",
+      "name": "Maori"
+    },
+    {
+      "id": "0000044E",
+      "name": "Marathi"
+    },
+    {
+      "id": "00000850",
+      "name": "Mongolian (Mongolian Script)"
+    },
+    {
+      "id": "00000450",
+      "name": "Mongolian Cyrillic"
+    },
+    {
+      "id": "00010C00",
+      "name": "Myanmar (Phonetic order)"
+    },
+    {
+      "id": "00130C00",
+      "name": "Myanmar (Visual order)"
+    }
+  ],
+  "N": [
+    {
+      "id": "00000461",
+      "name": "Nepali"
+    },
+    {
+      "id": "00020C00",
+      "name": "New Tai Lue"
+    },
+    {
+      "id": "00090C00",
+      "name": "N’Ko"
+    },
+    {
+      "id": "00000414",
+      "name": "Norwegian"
+    },
+    {
+      "id": "0000043B",
+      "name": "Norwegian with Sami"
+    },
+    {
+      "id": "00001409",
+      "name": "NZ Aotearoa"
+    }
+  ],
+  "O": [
+    {
+      "id": "00000448",
+      "name": "Odia"
+    },
+    {
+      "id": "00040C00",
+      "name": "Ogham"
+    },
+    {
+      "id": "000D0C00",
+      "name": "Ol Chiki"
+    },
+    {
+      "id": "000F0C00",
+      "name": "Old Italic"
+    },
+    {
+      "id": "00150C00",
+      "name": "Osage"
+    },
+    {
+      "id": "000E0C00",
+      "name": "Osmanya"
+    }
+  ],
+  "P": [
+    {
+      "id": "00000463",
+      "name": "Pashto (Afghanistan)"
+    },
+    {
+      "id": "00000429",
+      "name": "Persian"
+    },
+    {
+      "id": "00050429",
+      "name": "Persian (Standard)"
+    },
+    {
+      "id": "000A0C00",
+      "name": "Phags-pa"
+    },
+    {
+      "id": "00010415",
+      "name": "Polish (214)"
+    },
+    {
+      "id": "00000415",
+      "name": "Polish (Programmers)"
+    },
+    {
+      "id": "00000816",
+      "name": "Portuguese"
+    },
+    {
+      "id": "00000416",
+      "name": "Portuguese (Brazil ABNT)"
+    },
+    {
+      "id": "00010416",
+      "name": "Portuguese (Brazil ABNT2)"
+    },
+    {
+      "id": "00000446",
+      "name": "Punjabi"
+    }
+  ],
+  "R": [
+    {
+      "id": "00000418",
+      "name": "Romanian"
+    },
+    {
+      "id": "00000418",
+      "name": "Romanian (Legacy)"
+    },
+    {
+      "id": "00020418",
+      "name": "Romanian (Programmers)"
+    },
+    {
+      "id": "00010418",
+      "name": "Romanian (Standard)"
+    },
+    {
+      "id": "00000419",
+      "name": "Russian"
+    },
+    {
+      "id": "00020419",
+      "name": "Russian - Mnemonic"
+    },
+    {
+      "id": "00010419",
+      "name": "Russian (Typewriter)"
+    }
+  ],
+  "S": [
+    {
+      "id": "00000485",
+      "name": "Sakha"
+    },
+    {
+      "id": "0002083B",
+      "name": "Sami Extended Finland-Sweden"
+    },
+    {
+      "id": "0001043B",
+      "name": "Sami Extended Norway"
+    },
+    {
+      "id": "00011809",
+      "name": "Scottish Gaelic"
+    },
+    {
+      "id": "00000C1A",
+      "name": "Serbian (Cyrillic)"
+    },
+    {
+      "id": "0000081A",
+      "name": "Serbian (Latin)"
+    },
+    {
+      "id": "0000046C",
+      "name": "Sesotho sa Leboa"
+    },
+    {
+      "id": "00000432",
+      "name": "Setswana"
+    },
+    {
+      "id": "0000045B",
+      "name": "Sinhala"
+    },
+    {
+      "id": "0001045B",
+      "name": "Sinhala - Wij 9"
+    },
+    {
+      "id": "0000041B",
+      "name": "Slovak"
+    },
+    {
+      "id": "0001041B",
+      "name": "Slovak (QWERTY)"
+    },
+    {
+      "id": "00000424",
+      "name": "Slovenian"
+    },
+    {
+      "id": "00100C00",
+      "name": "Sora"
+    },
+    {
+      "id": "0001042E",
+      "name": "Sorbian Extended"
+    },
+    {
+      "id": "0002042E",
+      "name": "Sorbian Standard"
+    },
+    {
+      "id": "0000042E",
+      "name": "Sorbian Standard (Legacy)"
+    },
+    {
+      "id": "0000040A",
+      "name": "Spanish"
+    },
+    {
+      "id": "0001040A",
+      "name": "Spanish Variation"
+    },
+    {
+      "id": "0000041A",
+      "name": "Standard"
+    },
+    {
+      "id": "0000041D",
+      "name": "Swedish"
+    },
+    {
+      "id": "0000083B",
+      "name": "Swedish with Sami"
+    },
+    {
+      "id": "0000100C",
+      "name": "Swiss French"
+    },
+    {
+      "id": "00000807",
+      "name": "Swiss German"
+    },
+    {
+      "id": "0000045A",
+      "name": "Syriac"
+    },
+    {
+      "id": "0001045A",
+      "name": "Syriac Phonetic"
+    }
+  ],
+  "T": [
+    {
+      "id": "00030C00",
+      "name": "Tai Le"
+    },
+    {
+      "id": "00000428",
+      "name": "Tajik"
+    },
+    {
+      "id": "00000449",
+      "name": "Tamil"
+    },
+    {
+      "id": "00020449",
+      "name": "Tamil 99"
+    },
+    {
+      "id": "00030449",
+      "name": "Tamil Anjal"
+    },
+    {
+      "id": "00010444",
+      "name": "Tatar"
+    },
+    {
+      "id": "00000444",
+      "name": "Tatar (Legacy)"
+    },
+    {
+      "id": "0000044A",
+      "name": "Telugu"
+    },
+    {
+      "id": "0000041E",
+      "name": "Thai Kedmanee"
+    },
+    {
+      "id": "0002041E",
+      "name": "Thai Kedmanee (non-ShiftLock)"
+    },
+    {
+      "id": "0001041E",
+      "name": "Thai Pattachote"
+    },
+    {
+      "id": "0003041E",
+      "name": "Thai Pattachote (non-ShiftLock)"
+    },
+    {
+      "id": "00000451",
+      "name": "Tibetan (PRC)"
+    },
+    {
+      "id": "00010451",
+      "name": "Tibetan (PRC) - Updated"
+    },
+    {
+      "id": "0000105F",
+      "name": "Tifinagh (Basic)"
+    },
+    {
+      "id": "0001105F",
+      "name": "Tifinagh (Extended)"
+    },
+    {
+      "id": "00010850",
+      "name": "Traditional Mongolian (Standard)"
+    },
+    {
+      "id": "0001041F",
+      "name": "Turkish F"
+    },
+    {
+      "id": "0000041F",
+      "name": "Turkish Q"
+    },
+    {
+      "id": "00000442",
+      "name": "Turkmen"
+    }
+  ],
+  "U": [
+    {
+      "id": "00000422",
+      "name": "Ukrainian"
+    },
+    {
+      "id": "00020422",
+      "name": "Ukrainian (Enhanced)"
+    },
+    {
+      "id": "00000809",
+      "name": "United Kingdom"
+    },
+    {
+      "id": "00000452",
+      "name": "United Kingdom Extended"
+    },
+    {
+      "id": "00010409",
+      "name": "United States-Dvorak"
+    },
+    {
+      "id": "00030409",
+      "name": "United States-Dvorak for left hand"
+    },
+    {
+      "id": "00040409",
+      "name": "United States-Dvorak for right hand"
+    },
+    {
+      "id": "00020409",
+      "name": "United States-International"
+    },
+    {
+      "id": "00000420",
+      "name": "Urdu"
+    },
+    {
+      "id": "00000409",
+      "name": "US"
+    },
+    {
+      "id": "00050409",
+      "name": "US English Table for IBM Arabic 238_L"
+    },
+    {
+      "id": "00010480",
+      "name": "Uyghur"
+    },
+    {
+      "id": "00000480",
+      "name": "Uyghur (Legacy)"
+    },
+    {
+      "id": "00000843",
+      "name": "Uzbek Cyrillic"
+    }
+  ],
+  "V": [
+    {
+      "id": "0000042A",
+      "name": "Vietnamese"
+    }
+  ],
+  "W": [
+    {
+      "id": "0000044D",
+      "name": "Welsh"
+    },
+    {
+      "id": "00000488",
+      "name": "Wolof"
+    }
+  ],
+  "Y": [
+    {
+      "id": "0000046A",
+      "name": "Yoruba"
+    }
+  ]
+}
