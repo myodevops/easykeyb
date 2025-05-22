@@ -17,7 +17,7 @@ fetch('keyboard_layouts.json')
       });
     }); 
   })
-  .catch(error => console.error('Errore nel caricamento dei layout:', error));
+  .catch(error => console.error('Error loading layouts:', error));
 
 function groupLayoutsByFirstLetter(layouts) {
   const result = {};
@@ -54,12 +54,28 @@ function createLayoutSections(layouts, savedLayoutIds = []) {
       checkbox.value = layout.id;
       checkbox.className = 'layout-checkbox';
 
-      // Se era già selezionato in precedenza, marchia checked
+        checkbox.addEventListener('change', () => {
+          const allChecked = document.querySelectorAll('.layout-checkbox:checked');
+          const section = checkbox.closest('.letter-section');
+          const header = section.querySelector('.letter-header');
+
+          // Update the group style
+          const anyChecked = Array.from(section.querySelectorAll('.layout-checkbox')).some(cb => cb.checked);
+          header.classList.toggle('selected', anyChecked);
+
+          // Limit to 10 selections
+          if (checkbox.checked && allChecked.length > 10) {
+            checkbox.checked = false;
+            showError('You can select up to 10 keyboard layouts.');
+          }
+        });
+
+      // If it was previously selected, mark it checked
       if (savedLayoutIds.includes(layout.id)) {
         checkbox.checked = true;
       }
 
-      // Ascolta i cambiamenti per aggiornare il grassetto del gruppo
+      // Listen to the changes to update the group bold
       checkbox.addEventListener('change', () => {
         const anyChecked = Array.from(section.querySelectorAll('.layout-checkbox')).some(cb => cb.checked);
         header.classList.toggle('selected', anyChecked);
@@ -78,7 +94,7 @@ function createLayoutSections(layouts, savedLayoutIds = []) {
     section.appendChild(content);
     container.appendChild(section);
 
-    // Imposta grassetto se almeno un layout è selezionato in partenza
+    // Set bold if at least one layout is selected by default
     const anyInitiallyChecked = layouts[letter].some(layout => savedLayoutIds.includes(layout.id));
     if (anyInitiallyChecked) {
       header.classList.add('selected');
@@ -103,11 +119,22 @@ function getSelectedLayouts(groupedLayouts) {
   return selectedLayouts;
 }
 
+function showError(message) {
+  const box = document.getElementById('error-message');
+  box.textContent = message;
+  box.style.display = 'block';
+
+  // Hide after 4 seconds
+  setTimeout(() => {
+    box.style.display = 'none';
+  }, 4000);
+}
+
 document.getElementById('ok-button').addEventListener('click', () => {
   const selectedIds = Array.from(document.querySelectorAll('.layout-checkbox:checked'))
-    .map(cb => cb.value); // Solo gli ID
+    .map(cb => cb.value); // Only the ID
 
-  window.easykeyb.saveLayouts(selectedIds); // Array di stringhe tipo ["00000401", "00010401"]
+  window.easykeyb.saveLayouts(selectedIds); // Array string as ["00000401", "00010401"]
   window.easykeyb.closeSetupWindow();
 });
 

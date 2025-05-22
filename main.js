@@ -14,7 +14,7 @@ const regKey = new Registry({
 });
 
 app.on('window-all-closed', (e) => {
-  // Non chiudere l'app se è solo nella tray
+  // Don't close the app if it's only in the tray
 });
 
 ipcMain.handle('get-keyboard-layouts', async () => {
@@ -28,7 +28,7 @@ ipcMain.handle('get-keyboard-layouts', async () => {
           .filter(Boolean);
         resolve(parsed);
       } catch (e) {
-        console.error('Errore nel parsing della chiave EnabledKeyboards:', e);
+        console.error('Key parsing error for EnabledKeyboards:', e);
         resolve([]);
       }
     });
@@ -41,14 +41,14 @@ ipcMain.handle('save-selected-layouts', async (event, selectedIds) => {
       const value = `"${selectedIds.join('|')}"`;
       regKey.set('EnabledKeyboards', Registry.REG_SZ, value, err => {
         if (err) {
-          console.error('Errore nel salvataggio dei layout:', err);
+          console.error('Error saving layouts:', err);
           reject(err);
         } else {
           resolve();
         }
       });
     } catch (e) {
-      console.error('Errore nella preparazione dei layout da salvare:', e);
+      console.error('Error preparing layouts to save:', e);
       reject(e);
     }
   });
@@ -56,13 +56,13 @@ ipcMain.handle('save-selected-layouts', async (event, selectedIds) => {
 
 ipcMain.on('close-setup-window', () => {
   if (global.setupWindow && !global.setupWindow.isDestroyed()) {
-    global.setupWindow.close(); // chiude solo la finestra, non l'app
+    global.setupWindow.close(); // It only closes the window, not the app.
     global.setupWindow = null;
   }
 });
 
 function getInstalledKeyboards(callback) {
-  // Comando PowerShell per ottenere la lista delle tastiere installate
+  // PowerShell Command to Get List of Installed Keyboards
   exec('powershell "Get-WinUserLanguageList | ForEach-Object { $_.InputMethodTips }"', (error, stdout) => {
     if (error) return callback([]);
     const keyboards = stdout
@@ -77,7 +77,7 @@ app.whenReady().then(() => {
   tray = new Tray(__dirname + '/assets/icon.png');
   tray.setToolTip('easykeyb');
 
-  // Clic sinistro → menu Setup + Quit
+  // Left clieck → Setup + Quit menu
   tray.on('right-click', () => {
     const serviceMenu = Menu.buildFromTemplate([
       { label: 'Setup', click: openSetupWindow },
@@ -86,7 +86,7 @@ app.whenReady().then(() => {
     tray.popUpContextMenu(serviceMenu);
   });
 
-  // Clic destro → elenco tastiere
+  // Right click → list of keyboard layouts
   refreshKeyboardMenu(tray, regKey);
 });
 
