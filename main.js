@@ -63,18 +63,6 @@ ipcMain.on('close-setup-window', () => {
   }
 });
 
-function getInstalledKeyboards(callback) {
-  // PowerShell Command to Get List of Installed Keyboards
-  exec('powershell "Get-WinUserLanguageList | ForEach-Object { $_.InputMethodTips }"', (error, stdout) => {
-    if (error) return callback([]);
-    const keyboards = stdout
-      .split('\n')
-      .map(line => line.trim())
-      .filter(line => line.length > 0);
-    callback(keyboards);
-  });
-}
-
 app.whenReady().then(() => {
   tray = new Tray(__dirname + '/assets/icon.png');
   tray.setToolTip('easykeyb');
