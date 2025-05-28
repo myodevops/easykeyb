@@ -3,9 +3,9 @@ const { exec } = require('child_process');
 const setup = require('./setup');
 const { ipcMain } = require('electron');
 const path = require('path');
+const fs = require('fs');
 const Registry = require('winreg');
 const { refreshKeyboardMenu } = require('./src/keyManager');
-
 
 let tray = null;
 
@@ -71,6 +71,7 @@ app.whenReady().then(() => {
   tray.on('right-click', () => {
     const serviceMenu = Menu.buildFromTemplate([
       { label: 'Setup', click: openSetupWindow },
+      { label: 'About',  click: () => createAboutWindow() },
       { label: 'Quit', click: () => app.quit() }
     ]);
     tray.popUpContextMenu(serviceMenu);
@@ -89,7 +90,7 @@ function openSetupWindow() {
       minimizable: false,
       maximizable: false,
       frame: false,
-      icon: __dirname + '/assets/icon.png',
+      icon: path.join(__dirname, 'assets', 'icon.png'),
       webPreferences: {
         preload: path.join(__dirname, 'src', 'setupPreload.js'),
         contextIsolation: true,
@@ -97,9 +98,37 @@ function openSetupWindow() {
       }
     });
     global.setupWindow.loadFile(path.join(__dirname, 'src', 'setup.html'));
-    //global.setupWindow.webContents.openDevTools();
     global.setupWindow.setMenu(null);
   } else {
     global.setupWindow.focus();
   }
 }
+
+const version = JSON.parse(fs.readFileSync(path.join(__dirname, 'package.json'))).version;
+
+function createAboutWindow() {
+  const aboutWindow = new BrowserWindow({
+    width: 300,
+    height: 380,
+    resizable: false,
+    maximizable: false,
+    minimizable: false,
+    icon: path.join(__dirname, 'assets', 'icon.png'),
+    title: "About",
+    webPreferences: {
+      preload: path.join(__dirname, 'src', 'preload_about.js'),
+      contextIsolation: true,
+      nodeIntegration: false,
+      sandbox: false
+    }
+  });
+
+  aboutWindow.setMenu(null);
+  aboutWindow.loadFile(path.join(__dirname, 'src/about.html'));
+}
+
+ipcMain.handle('get-app-version', () => {
+  const packageJsonPath = path.join(__dirname, 'package.json');
+  const packageJson = JSON.parse(fs.readFileSync(packageJsonPath, 'utf-8'));
+  return packageJson.version;
+});

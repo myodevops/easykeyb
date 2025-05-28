@@ -2,6 +2,9 @@
   "name": "easykeyb",
   "version": "1.0.6",
   "main": "main.js",
+  "build": {
+    "icon": "assets/icon"
+  },
   "scripts": {
     "start": "electron ."
   },

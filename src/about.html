@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>About EasyKeyb</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0.1em;
+      overflow: hidden;
+      font-family: sans-serif;
+      background-color: #f9f9f9;
+    }
+    #version {
+      font-weight: bold;
+      color: #555;
+      margin: 20px 0 20px 0;
+    }
+    .container {
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+    img {
+      max-width: 120px;
+      margin-top: 10px;
+    }
+    h2 {
+      margin: 20px 0 20px 0;
+      text-align: center;
+    }
+    p {
+      margin: 4px 0;
+      text-align: center;
+      font-size: 13px;
+    }
+    a {
+      color: #0078D4; 
+      text-decoration: none;
+    }
+    .footer {
+      margin-bottom: 10px;
+    }
+    button {
+      margin: 20px 0 20px 0;
+      padding: 6px 16px;
+      font-size: 14px;
+      border: none;
+      background-color: #0078D4;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #005fa3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div>
+      <h2>EasyKeyb</h2>
+      <p id="version">Version: loading...</p>
+      <p>Authors: <a href="#" onclick="window.api.openWebsite('https://github.com/nicola-myo')">Nicola Cainelli</a></p>
+      <p>License: <a href="#" onclick="window.api.openWebsite('https://mit-license.org/')">MIT License</a></p>
+      <p>Made possible by</p>
+      <p><a href="#" onclick="window.api.openWebsite('https://www.myobject.eu')">myobject srls</a></p>
+      <hr>
+      <p>Love <b>EasyKeyb?</b></p>
+      <p><a href="#" onclick="window.api.openWebsite('https://ko-fi.com/myobject')">Support its development with a coffee!</a></p>
+      <p>Every donation helps us keep improving and maintaining the app.</p>
+    </div>
+    <div class="footer">
+      <button onclick="window.close()">OK</button>
+    </div>
+  </div>
+  <script>
+    window.api.getAppVersion().then(version => {
+      document.getElementById('version').textContent = `Version: ${version}`;
+    });
+  </script>
+</body>
+</html>
+
