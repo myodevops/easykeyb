@@ -1,0 +1,15 @@
+{
+  "main.setup": "Beállítás",
+  "main.about": "Névjegy",
+  "main.quit": "Kilépés",
+  "about.version_loading": "Verzió betöltése...",
+  "about.title": "Névjegy - EasyKeyb",
+  "about.version": "Verzió:",
+  "about.authors": "Szerzők:",
+  "about.license": "Licenc:",
+  "about.made_possible_by": "Lehetővé tette",
+  "about.love_easykeyb": "Szereted",
+  "about.support_coffee": "Támogasd a fejlesztést egy kávéval!",
+  "about.donation_helps": "Minden adomány segít a fejlesztésben és fenntartásban.",
+  "about.ok": "OK"
+}

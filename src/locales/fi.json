@@ -1,0 +1,15 @@
+{
+  "main.setup": "Asetukset",
+  "main.about": "Tietoa",
+  "main.quit": "Lopeta",
+  "about.version_loading": "Ladataan versiota...",
+  "about.title": "Tietoa EasyKeyb:stä",
+  "about.version": "Versio:",
+  "about.authors": "Tekijät:",
+  "about.license": "Lisenssi:",
+  "about.made_possible_by": "Mahdollistanut",
+  "about.love_easykeyb": "Pidätkö",
+  "about.support_coffee": "Tue kehitystä kahvilla!",
+  "about.donation_helps": "Jokainen lahjoitus auttaa meitä parantamaan ja ylläpitämään sovellusta.",
+  "about.ok": "OK"
+}

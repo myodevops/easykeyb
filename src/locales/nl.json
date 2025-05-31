@@ -1,0 +1,15 @@
+{
+  "main.setup": "Instellen",
+  "main.about": "Over",
+  "main.quit": "Afsluiten",
+  "about.version_loading": "Versie laden...",
+  "about.title": "Over EasyKeyb",
+  "about.version": "Versie:",
+  "about.authors": "Auteurs:",
+  "about.license": "Licentie:",
+  "about.made_possible_by": "Mogelijk gemaakt door",
+  "about.love_easykeyb": "Dol op",
+  "about.support_coffee": "Steun de ontwikkeling met een kopje koffie!",
+  "about.donation_helps": "Elke donatie helpt ons de app te verbeteren en onderhouden.",
+  "about.ok": "OK"
+}

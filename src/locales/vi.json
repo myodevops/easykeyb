@@ -1,0 +1,15 @@
+{
+  "main.setup": "Cài đặt",
+  "main.about": "Giới thiệu",
+  "main.quit": "Thoát",
+  "about.version_loading": "Đang tải phiên bản...",
+  "about.title": "Giới thiệu về EasyKeyb",
+  "about.version": "Phiên bản:",
+  "about.authors": "Tác giả:",
+  "about.license": "Giấy phép:",
+  "about.made_possible_by": "Được thực hiện bởi",
+  "about.love_easykeyb": "Yêu thích",
+  "about.support_coffee": "Ủng hộ phát triển bằng một ly cà phê!",
+  "about.donation_helps": "Mỗi khoản đóng góp đều giúp chúng tôi cải thiện và duy trì ứng dụng.",
+  "about.ok": "OK"
+}

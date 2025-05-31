@@ -1,0 +1,15 @@
+{
+  "main.setup": "Ustawienia",
+  "main.about": "O programie",
+  "main.quit": "Zamknij",
+  "about.version_loading": "Wczytywanie wersji...",
+  "about.title": "O EasyKeyb",
+  "about.version": "Wersja:",
+  "about.authors": "Autorzy:",
+  "about.license": "Licencja:",
+  "about.made_possible_by": "Możliwe dzięki",
+  "about.love_easykeyb": "Lubisz",
+  "about.support_coffee": "Wesprzyj rozwój kawą!",
+  "about.donation_helps": "Każda darowizna pomaga nam rozwijać i utrzymywać aplikację.",
+  "about.ok": "OK"
+}

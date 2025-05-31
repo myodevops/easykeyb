@@ -1,0 +1,15 @@
+{
+  "main.setup": "Կարգավորումներ",
+  "main.about": "Մասին",
+  "main.quit": "Ելք",
+  "about.version_loading": "Տարբերակի բեռնում...",
+  "about.title": "Մասին EasyKeyb",
+  "about.version": "Տարբերակ՝",
+  "about.authors": "Հեղինակներ՝",
+  "about.license": "Արտոնագիր՝",
+  "about.made_possible_by": "Իրականացված է՝",
+  "about.love_easykeyb": "Սիրում եք",
+  "about.support_coffee": "Աջակցեք զարգացումը սուրճով!",
+  "about.donation_helps": "Յուրաքանչյուր նվիրատվություն օգնում է մեզ բարելավել և պահպանել ծրագիրը։",
+  "about.ok": "ԼԱՎ"
+}

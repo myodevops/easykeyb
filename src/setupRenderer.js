@@ -5,11 +5,11 @@ fetch('keyboard_layouts.json')
   .then(layoutData => {
     globalLayoutData = layoutData;
     
-    window.easykeyb.getLayouts().then(savedLayoutIds => {
+    window.api.getLayouts().then(savedLayoutIds => {
       createLayoutSections(globalLayoutData, savedLayoutIds);
     });
 
-    window.easykeyb.getLayouts().then(savedIds => {
+    window.api.getLayouts().then(savedIds => {
       document.querySelectorAll('.layout-checkbox').forEach(cb => {
         if (savedIds.includes(cb.value)) {
           cb.checked = true;
@@ -134,11 +134,11 @@ document.getElementById('ok-button').addEventListener('click', () => {
   const selectedIds = Array.from(document.querySelectorAll('.layout-checkbox:checked'))
     .map(cb => cb.value); // Only the ID
 
-  window.easykeyb.saveLayouts(selectedIds); // Array string as ["00000401", "00010401"]
-  window.easykeyb.closeSetupWindow();
+  window.api.saveLayouts(selectedIds); // Array string as ["00000401", "00010401"]
+  window.api.closeSetupWindow();
 });
 
 
 document.getElementById('cancel-button').addEventListener('click', () => {
-  window.easykeyb.closeSetupWindow();
+  window.api.closeSetupWindow();
 });

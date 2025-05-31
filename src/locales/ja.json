@@ -1,0 +1,15 @@
+{
+  "main.setup": "設定",
+  "main.about": "情報",
+  "main.quit": "終了",
+  "about.version_loading": "バージョンを読み込み中...",
+  "about.title": "EasyKeyb について",
+  "about.version": "バージョン：",
+  "about.authors": "著者：",
+  "about.license": "ライセンス：",
+  "about.made_possible_by": "提供：",
+  "about.love_easykeyb": "お気に入り",
+  "about.support_coffee": "コーヒーで開発を支援！",
+  "about.donation_helps": "寄付によりアプリの改善と保守が可能になります。",
+  "about.ok": "OK"
+}

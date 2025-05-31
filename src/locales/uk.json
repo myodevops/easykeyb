@@ -1,0 +1,15 @@
+{
+  "main.setup": "Налаштування",
+  "main.about": "Про програму",
+  "main.quit": "Вийти",
+  "about.version_loading": "Завантаження версії...",
+  "about.title": "Про EasyKeyb",
+  "about.version": "Версія:",
+  "about.authors": "Автори:",
+  "about.license": "Ліцензія:",
+  "about.made_possible_by": "Стараннями",
+  "about.love_easykeyb": "Подобається",
+  "about.support_coffee": "Підтримайте розробку кавою!",
+  "about.donation_helps": "Кожна пожертва допомагає покращити та підтримувати додаток.",
+  "about.ok": "ОК"
+}

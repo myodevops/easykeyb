@@ -1,4 +1,5 @@
 const { contextBridge, ipcRenderer, shell } = require('electron');
+const { t, tDom } = require('./i18n');
 
 contextBridge.exposeInMainWorld('api', {
   getAppVersion: () => {
@@ -13,6 +14,7 @@ contextBridge.exposeInMainWorld('api', {
     if (typeof url === 'string' && url.startsWith('http')) {
       shell.openExternal(url);
     }
-  }
+  },
+  t: (key) => t(key),
+  tDom: () => tDom(document)
 });
-

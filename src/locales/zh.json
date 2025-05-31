@@ -1,0 +1,15 @@
+{
+  "main.setup": "设置",
+  "main.about": "关于",
+  "main.quit": "退出",
+  "about.version_loading": "正在加载版本...",
+  "about.title": "关于 EasyKeyb",
+  "about.version": "版本：",
+  "about.authors": "作者：",
+  "about.license": "许可证：",
+  "about.made_possible_by": "由...实现",
+  "about.love_easykeyb": "喜欢",
+  "about.support_coffee": "通过一杯咖啡支持开发！",
+  "about.donation_helps": "每一笔捐赠都能帮助我们改进和维护应用。",
+  "about.ok": "确定"
+}

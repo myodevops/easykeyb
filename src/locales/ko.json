@@ -1,0 +1,15 @@
+{
+  "main.setup": "설정",
+  "main.about": "정보",
+  "main.quit": "종료",
+  "about.version_loading": "버전 불러오는 중...",
+  "about.title": "EasyKeyb 정보",
+  "about.version": "버전:",
+  "about.authors": "작성자:",
+  "about.license": "라이선스:",
+  "about.made_possible_by": "제공:",
+  "about.love_easykeyb": "좋아하시나요",
+  "about.support_coffee": "커피 한 잔으로 개발을 응원해주세요!",
+  "about.donation_helps": "여러분의 기부는 앱 개선 및 유지에 큰 도움이 됩니다.",
+  "about.ok": "확인"
+}

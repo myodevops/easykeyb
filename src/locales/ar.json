@@ -1,0 +1,15 @@
+{
+  "main.setup": "إعداد",
+  "main.about": "حول",
+  "main.quit": "خروج",
+  "about.version_loading": "جاري تحميل الإصدار...",
+  "about.title": "حول EasyKeyb",
+  "about.version": "الإصدار:",
+  "about.authors": "المؤلفون:",
+  "about.license": "الرخصة:",
+  "about.made_possible_by": "تم بفضل",
+  "about.love_easykeyb": "تحب",
+  "about.support_coffee": "ادعم التطوير بفنجان قهوة!",
+  "about.donation_helps": "كل تبرع يساعدنا على تحسين التطبيق وصيانته.",
+  "about.ok": "حسناً"
+}

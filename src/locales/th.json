@@ -1,0 +1,15 @@
+{
+  "main.setup": "การตั้งค่า",
+  "main.about": "เกี่ยวกับ",
+  "main.quit": "ออก",
+  "about.version_loading": "กำลังโหลดเวอร์ชัน...",
+  "about.title": "เกี่ยวกับ EasyKeyb",
+  "about.version": "เวอร์ชัน:",
+  "about.authors": "ผู้เขียน:",
+  "about.license": "สัญญาอนุญาต:",
+  "about.made_possible_by": "เป็นไปได้ด้วย",
+  "about.love_easykeyb": "ชอบ",
+  "about.support_coffee": "สนับสนุนการพัฒนาด้วยกาแฟ!",
+  "about.donation_helps": "ทุกการบริจาคช่วยให้เราพัฒนาและดูแลแอปต่อไป",
+  "about.ok": "ตกลง"
+}
