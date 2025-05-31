@@ -1,0 +1,15 @@
+{
+  "main.setup": "Ρύθμιση",
+  "main.about": "Σχετικά",
+  "main.quit": "Έξοδος",
+  "about.version_loading": "Φόρτωση έκδοσης...",
+  "about.title": "Σχετικά με το EasyKeyb",
+  "about.version": "Έκδοση:",
+  "about.authors": "Συγγραφείς:",
+  "about.license": "Άδεια:",
+  "about.made_possible_by": "Κατασκευάστηκε από",
+  "about.love_easykeyb": "Αγαπάς",
+  "about.support_coffee": "Υποστήριξε την ανάπτυξη με έναν καφέ!",
+  "about.donation_helps": "Κάθε δωρεά μας βοηθά να συνεχίσουμε τη βελτίωση της εφαρμογής.",
+  "about.ok": "ΟΚ"
+}

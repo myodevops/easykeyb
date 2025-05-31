@@ -1,0 +1,15 @@
+{
+  "main.setup": "Inställningar",
+  "main.about": "Om",
+  "main.quit": "Avsluta",
+  "about.version_loading": "Laddar version...",
+  "about.title": "Om EasyKeyb",
+  "about.version": "Version:",
+  "about.authors": "Författare:",
+  "about.license": "Licens:",
+  "about.made_possible_by": "Gjort möjligt av",
+  "about.love_easykeyb": "Älskar",
+  "about.support_coffee": "Stöd utvecklingen med en kaffe!",
+  "about.donation_helps": "Varje donation hjälper oss att förbättra och underhålla appen.",
+  "about.ok": "OK"
+}

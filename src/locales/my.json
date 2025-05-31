@@ -1,0 +1,15 @@
+{
+  "main.setup": "ပြင်ဆင်မှု",
+  "main.about": "အကြောင်းအရာ",
+  "main.quit": "ထွက်ခွာမည်",
+  "about.version_loading": "ဗားရှင်းဖတ်နေသည်...",
+  "about.title": "EasyKeyb အကြောင်း",
+  "about.version": "ဗားရှင်း:",
+  "about.authors": "ရေးသားသူများ:",
+  "about.license": "လိုင်စင်:",
+  "about.made_possible_by": "အကူအညီဖြင့်ဖြစ်လာခဲ့သည်",
+  "about.love_easykeyb": "ကြိုက်လား",
+  "about.support_coffee": "ကော်ဖီတစ်ခွက်ဖြင့်အဖွဲ့ကိုထောက်ခံပါ!",
+  "about.donation_helps": "လှူဒါန်းမှုတစ်ခုချင်းစီသည်အက်ပ်ကိုတိုးတက်လာအောင်အထောက်အပံ့ဖြစ်ပါသည်။",
+  "about.ok": "အိုကေ"
+}

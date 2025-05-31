@@ -1,0 +1,15 @@
+{
+  "main.setup": "Nastavení",
+  "main.about": "O aplikaci",
+  "main.quit": "Ukončit",
+  "about.version_loading": "Načítání verze...",
+  "about.title": "O aplikaci EasyKeyb",
+  "about.version": "Verze:",
+  "about.authors": "Autoři:",
+  "about.license": "Licence:",
+  "about.made_possible_by": "Díky podpoře od",
+  "about.love_easykeyb": "Máte rádi",
+  "about.support_coffee": "Podpořte vývoj kávou!",
+  "about.donation_helps": "Každý příspěvek nám pomáhá aplikaci zlepšovat a udržovat.",
+  "about.ok": "OK"
+}

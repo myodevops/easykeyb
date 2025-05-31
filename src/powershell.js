@@ -20,7 +20,7 @@ function getCurrentKeyboardLayout(callback) {
 
   exec(`powershell -Command "${psCommand}"`, (err, stdout, stderr) => {
     if (err) {
-      console.error('Errore PowerShell:', err);
+      console.error('Error PowerShell:', err);
       return callback(null);
     }
 
@@ -60,7 +60,7 @@ function setKeyboardLayout(layoutId, callback) {
 
   exec(`powershell -Command "${psCommand}"`, (err, stdout, stderr) => {
     if (err) {
-      console.error('Errore nel cambio layout:', err);
+      console.error('Error changing layout:', err);
       callback(false);
     } else {
       callback(true);

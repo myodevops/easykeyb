@@ -1,0 +1,15 @@
+{
+  "main.setup": "הגדרות",
+  "main.about": "אודות",
+  "main.quit": "יציאה",
+  "about.version_loading": "טוען גרסה...",
+  "about.title": "אודות EasyKeyb",
+  "about.version": "גרסה:",
+  "about.authors": "מחברים:",
+  "about.license": "רישיון:",
+  "about.made_possible_by": "אפשרי בזכות",
+  "about.love_easykeyb": "אוהבים את",
+  "about.support_coffee": "תמכו בפיתוח עם כוס קפה!",
+  "about.donation_helps": "כל תרומה עוזרת לנו לשפר ולתחזק את האפליקציה.",
+  "about.ok": "אישור"
+}

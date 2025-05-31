@@ -6,6 +6,7 @@ const path = require('path');
 const fs = require('fs');
 const Registry = require('winreg');
 const { refreshKeyboardMenu } = require('./src/keyManager');
+const { t } = require('./src/i18n');
 
 let tray = null;
 
@@ -70,9 +71,9 @@ app.whenReady().then(() => {
   // Left clieck → Setup + Quit menu
   tray.on('right-click', () => {
     const serviceMenu = Menu.buildFromTemplate([
-      { label: 'Setup', click: openSetupWindow },
-      { label: 'About',  click: () => createAboutWindow() },
-      { label: 'Quit', click: () => app.quit() }
+      { label: t('main.setup'), click: openSetupWindow },
+      { label: t('main.about'),  click: () => createAboutWindow() },
+      { label: t('main.quit'), click: () => app.quit() }
     ]);
     tray.popUpContextMenu(serviceMenu);
   });
@@ -116,7 +117,7 @@ function createAboutWindow() {
     icon: path.join(__dirname, 'assets', 'icon.png'),
     title: "About",
     webPreferences: {
-      preload: path.join(__dirname, 'src', 'preload_about.js'),
+      preload: path.join(__dirname, 'src', 'aboutPreload.js'),
       contextIsolation: true,
       nodeIntegration: false,
       sandbox: false

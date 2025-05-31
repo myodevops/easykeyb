@@ -1,0 +1,15 @@
+{
+  "main.setup": "সেটআপ",
+  "main.about": "পরিচিতি",
+  "main.quit": "প্রস্থান",
+  "about.version_loading": "ভার্সন লোড হচ্ছে...",
+  "about.title": "EasyKeyb সম্পর্কে",
+  "about.version": "ভার্সন:",
+  "about.authors": "লেখক:",
+  "about.license": "লাইসেন্স:",
+  "about.made_possible_by": "সম্ভব হয়েছে যার দ্বারা",
+  "about.love_easykeyb": "ভালবাসেন",
+  "about.support_coffee": "এক কাপ কফির মাধ্যমে উন্নয়নে সহায়তা করুন!",
+  "about.donation_helps": "প্রত্যেকটি অনুদান অ্যাপটি উন্নত করতে এবং রক্ষণাবেক্ষণ করতে সহায়তা করে।",
+  "about.ok": "ঠিক আছে"
+}

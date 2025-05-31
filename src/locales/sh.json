@@ -1,0 +1,15 @@
+{
+  "main.setup": "Podešavanje",
+  "main.about": "O aplikaciji",
+  "main.quit": "Izađi",
+  "about.version_loading": "Učitavanje verzije...",
+  "about.title": "O EasyKeyb-u",
+  "about.version": "Verzija:",
+  "about.authors": "Autori:",
+  "about.license": "Licenca:",
+  "about.made_possible_by": "Omogućio:",
+  "about.love_easykeyb": "Volite",
+  "about.support_coffee": "Podržite razvoj kafom!",
+  "about.donation_helps": "Svaka donacija pomaže da unapredimo i održimo aplikaciju.",
+  "about.ok": "U redu"
+}

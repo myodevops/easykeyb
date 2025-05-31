@@ -1,0 +1,15 @@
+{
+  "main.setup": "Kurulum",
+  "main.about": "Hakkında",
+  "main.quit": "Çıkış",
+  "about.version_loading": "Sürüm yükleniyor...",
+  "about.title": "EasyKeyb Hakkında",
+  "about.version": "Sürüm:",
+  "about.authors": "Yazarlar:",
+  "about.license": "Lisans:",
+  "about.made_possible_by": "Şu kişi sayesinde mümkün oldu",
+  "about.love_easykeyb": "Seviyor musunuz",
+  "about.support_coffee": "Geliştirmeyi bir kahve ile destekleyin!",
+  "about.donation_helps": "Her bağış, uygulamayı geliştirmemize ve sürdürmemize yardımcı olur.",
+  "about.ok": "Tamam"
+}

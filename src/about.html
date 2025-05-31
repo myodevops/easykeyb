@@ -61,27 +61,27 @@
     }
   </style>
 </head>
-<body>
+<body onload="window.api.tDom()">
   <div class="container">
     <div>
       <h2>EasyKeyb</h2>
-      <p id="version">Version: loading...</p>
-      <p>Authors: <a href="#" onclick="window.api.openWebsite('https://github.com/nicola-myo')">Nicola Cainelli</a></p>
-      <p>License: <a href="#" onclick="window.api.openWebsite('https://mit-license.org/')">MIT License</a></p>
-      <p>Made possible by</p>
+      <p id="version" data-i18n="about.version_loading">Version: loading...</p>
+      <p><span data-i18n="about.authors">Authors:</span> <a href="#" onclick="window.api.openWebsite('https://github.com/nicola-myo')">Nicola Cainelli</a></p>
+      <p><span data-i18n="about.license">License:</span> <a href="#" onclick="window.api.openWebsite('https://mit-license.org/')">MIT License</a></p>
+      <p data-i18n="about.made_possible_by">Made possible by</p>
       <p><a href="#" onclick="window.api.openWebsite('https://www.myobject.eu')">myobject srls</a></p>
       <hr>
-      <p>Love <b>EasyKeyb?</b></p>
-      <p><a href="#" onclick="window.api.openWebsite('https://ko-fi.com/myobject')">Support its development with a coffee!</a></p>
-      <p>Every donation helps us keep improving and maintaining the app.</p>
+      <p><span data-i18n="about.love_easykeyb">Love</span> <b>EasyKeyb?</b></p>
+      <p><a href="#" onclick="window.api.openWebsite('https://ko-fi.com/myobject')" data-i18n="about.support_coffee">Support its development with a coffee!</a></p>
+      <p  data-i18n="about.donation_helps">Every donation helps us keep improving and maintaining the app.</p>
     </div>
     <div class="footer">
-      <button onclick="window.close()">OK</button>
+      <button onclick="window.close()" data-i18n="about.ok">OK</button>
     </div>
   </div>
   <script>
     window.api.getAppVersion().then(version => {
-      document.getElementById('version').textContent = `Version: ${version}`;
+      document.getElementById('version').textContent = window.api.t('about.version') + ` ${version}`;
     });
   </script>
 </body>

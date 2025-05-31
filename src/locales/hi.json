@@ -1,0 +1,15 @@
+{
+  "main.setup": "सेटअप",
+  "main.about": "के बारे में",
+  "main.quit": "बाहर निकलें",
+  "about.version_loading": "संस्करण लोड हो रहा है...",
+  "about.title": "EasyKeyb के बारे में",
+  "about.version": "संस्करण:",
+  "about.authors": "लेखक:",
+  "about.license": "लाइसेंस:",
+  "about.made_possible_by": "सक्षम बनाने वाले:",
+  "about.love_easykeyb": "पसंद है",
+  "about.support_coffee": "विकास का समर्थन करें एक कॉफी से!",
+  "about.donation_helps": "हर दान हमें ऐप को सुधारने और बनाए रखने में मदद करता है।",
+  "about.ok": "ठीक है"
+}
