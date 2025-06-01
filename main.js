@@ -1,6 +1,5 @@
 const { app, Tray, Menu, BrowserWindow } = require('electron');
 const { exec } = require('child_process');
-const setup = require('./setup');
 const { ipcMain } = require('electron');
 const path = require('path');
 const fs = require('fs');

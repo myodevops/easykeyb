@@ -1,15 +1,51 @@
 {
   "name": "easykeyb",
-  "version": "1.0.6",
+  "version": "1.0.9",
+  "description": "A simple tool to manage keyboard shortcuts for Windows.",
+  "author": "myobject",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myodevops/easykeyb.git"
+  },
   "main": "main.js",
   "build": {
-    "icon": "assets/icon"
+    "appId": "com.myobject.easykeyb",
+    "productName": "EasyKeyb",
+    "copyright": "Copyright © 2024 MyObject SRLS",
+    "files": [
+      "main.js",
+      "src/**/*",
+      "assets/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "icon": "assets/icon",
+    "extraResources": [],
+    "directories": {
+      "buildResources": "assets",
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "EasyKeyb"
+    }
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+     "dist": "electron-builder"
   },
   "devDependencies": {
-    "electron": "^29.0.0"
+    "electron": "^29.0.0",
+    "electron-builder": "^26.0.12"
   },
   "dependencies": {
     "winreg": "^1.2.5"
